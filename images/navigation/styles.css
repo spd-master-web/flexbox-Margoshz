@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+ padding: 30px  106px;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: wrap ;
+	justify-content: center;
+	align-items: center ;
+  background-color: pink;
+  text-align: center;
+}
+
+
+nav a {
+font-family: Arial;
+font-size: 18px;  
+color: rgb(233, 4, 4);
+padding: 20px;
+border-right: 1px solid red;
+text-decoration: none;
+}
+
+a:last-of-type {
+  border: red; 
+}
+
+.logo {
+  background-color: red;
+  color:rgb(250, 250, 250);
+  padding: 50px;
+}
+
+@media (max-width: 725px) {
+  .logo {
+    width: 100%;
+    background-color: blue;
+  }
+}
