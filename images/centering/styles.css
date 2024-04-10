@@ -1,0 +1,49 @@
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.wrapper {
+  min-width: 50vw;
+  min-height: 50vw;
+  border: 2px dashed black;
+
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+article {
+  border: 4px solid pink;
+  padding: 85px ;
+}
+
+.one {
+  align-self: self-start;
+  
+}
+.two {
+  align-self: center;
+  
+}
+.three {
+  align-self: self-end;
+}
+
+.four {
+  align-self: self-start;
+  
+}
+.five {
+  align-self:stretch;
+  
+}
+.six {
+  align-self: self-end;
+}
+
+.extra {
+  border-color:blue;
+  flex-direction: column;
+  padding: 2px;
+}
